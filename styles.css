@@ -14,7 +14,37 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #eee;
+}
 
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 60%;
+    }
+
+    .container form{
+        width: 250px;
+    }
+
+    .container h1{
+        font-size: 22px;
+    }
+
+    .notes-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container2{
+        width: 50%;
+    }
+
+    .note-text, .note-title{
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
 }
 
 .p-small {
